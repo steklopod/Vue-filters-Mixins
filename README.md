@@ -1,6 +1,6 @@
 # vue-cli
 
-> A Vue.js project
+> Vue.js проект
 
 ## Build Setup
 
@@ -15,4 +15,8 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Чтобы убить процесс на порту 8080 (Windows):
+```
+1. netstat -ano | findstr 8080
+2. taskkill /pid @НОМЕР_ПОРТА@ /F
+``` 
